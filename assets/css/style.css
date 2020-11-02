@@ -121,11 +121,11 @@ main{
     justify-content: space-evenly;
 }
 
-figure, .article{
+.article-item, .article{
     position: relative;
 }
 
-figure{
+.article-item{
     width: 35%;
     margin: 2rem 0 4rem 0;
 }
@@ -393,7 +393,7 @@ footer p{
 
 @media screen and (max-width: 550px)
 {
-    figure{
+    .article-item{
         width: 80%;
     }
 }
